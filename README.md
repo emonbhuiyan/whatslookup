@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/whatslookup.png" title="WHATS LOOKUP" alt="WHATS LOOKUP" width="600"/>
+  <img src="assets/Demo_WhatsLookup.png" title="WHATS LOOKUP" alt="WHATS LOOKUP" width="600"/>
 </p>
 
 <p align="center">
