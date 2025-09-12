@@ -120,9 +120,9 @@ pip install -r requirements.txt
 
 ## 🐍 Uso básico 
 ##### Ejecuta el script:
-
+```bash
 python3 whats_lookup.py
-
+```
 - Selecciona una opción del menú (1-6)
 - Ingresa el número de teléfono con código de país (ej: 51987654321)
 - La herramienta validará el formato y enviará la consulta
