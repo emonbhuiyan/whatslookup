@@ -47,6 +47,49 @@ NOMBRE | KEY |
 - Edita el nombre del archivo .env.example por .env
 - Y agrega tu API Key en el archivo .env
 
+### 🛠️ Paso 1: Configura el archivo .env con tu api
+
+En la raíz de tu proyecto corre:
+```bash
+cp .env.example .env
+```
+🔹 Esto crea un archivo nuevo llamado .env con el mismo contenido que .env.example.
+
+🔹 .env.example se mantiene intacto (sirve como plantilla).
+
+### 🛠️ Paso 2: Abrir el archivo .env para editarlo
+
+Usa nano (o el editor que prefieras, como vim o VS Code):
+```bash
+nano .env
+```
+
+### 🛠️ Paso 3: Editar las variables
+
+Dentro de nano verás algo así (ejemplo):
+
+RAPIDAPI_KEY=tu_api_key_aqui
+
+👉 Aquí debes rellenar los valores con los datos correctos para tu entorno local.
+Por ejemplo:
+
+RAPIDAPI_KEY=yysnssksls536m3mdlldldmdddlld
+
+### 🛠️ Paso 4: Guardar cambios en nano
+
+- Presiona Ctrl + O → significa “Write Out” (guardar).
+
+- Te pedirá confirmación del nombre (.env), presiona Enter.
+
+- Sal del editor con Ctrl + X.
+
+### 🛠️ Paso 5: Verificar que se guardó
+
+Ejecuta:
+```bash
+cat .env
+```
+
 ## ⚠️ Advertencia de uso
 
 Esta herramienta ha sido creada exclusivamente para:
