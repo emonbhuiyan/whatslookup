@@ -1,7 +1,12 @@
 <h1 align="center">WHATS LOOKUP 🕵️‍♂️</h1>
 
 <p align="center">
-  Herramienta de OSINT para WhatsApp que permite obtener fotos de perfil mediante número de teléfono usando la API <strong>Whatsapp OSINT</strong> de RapidAPI.
+  Herramienta de <strong>OSINT para WhatsApp</strong> que permite obtener fotos de perfil, 
+  verificar cuentas Business, consultar estado e información de usuario, 
+  analizar dispositivos vinculados, revisar configuración de privacidad y 
+  acceder a datos completos usando la API <strong>WhatsApp OSINT</strong> de RapidAPI.
+  <br>
+  Soporta 6 endpoints: <em>about, base64, business, devices, doublecheck, privacy</em>.
 </p>
 
 <p align="center">
