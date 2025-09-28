@@ -1,12 +1,12 @@
 <h1 align="center">WHATS LOOKUP 🕵️‍♂️</h1>
 
 <p align="center">
-  Herramienta de <strong>OSINT para WhatsApp</strong> que permite obtener fotos de perfil, 
-  verificar cuentas Business, consultar estado e información de usuario, 
-  analizar dispositivos vinculados, revisar configuración de privacidad y 
-  acceder a datos completos usando la API <strong>WhatsApp OSINT</strong> de RapidAPI.
+  <strong>OSINT tool for WhatsApp</strong> that allows obtaining profile pictures, 
+  verifying Business accounts, checking status and user information, 
+  analyzing linked devices, reviewing privacy settings, and 
+  accessing complete data using the <strong>WhatsApp OSINT</strong> API from RapidAPI.
   <br>
-  Soporta 6 endpoints: <em>about, base64, business, devices, doublecheck, privacy</em>.
+  Supports 6 endpoints: <em>about, base64, business, devices, doublecheck, privacy</em>.
 </p>
 
 <p align="center">
@@ -21,97 +21,99 @@
 
 ---
 
-## 🚀 Características
+## 🚀 Features
 
-- Obtención de fotos de perfil de WhatsApp mediante número de teléfono
-- Verificación de cuentas de WhatsApp Business
-- Consulta de estado y información de usuario
-- Análisis de dispositivos vinculados
-- Información OSINT completa
-- Configuración de privacidad
-- Validación automática de formatos de número telefónico
-- Soporte para números internacionales (con código de país)
-- Interfaz en terminal con menú interactivo y colores
-- Guardado automático de imágenes en formato JPG
-- Detección de perfiles sin foto de perfil o ocultos
+- Obtain WhatsApp profile pictures using phone number
+- Verification of WhatsApp Business accounts
+- Query user status and information
+- Analysis of linked devices
+- Complete OSINT information
+- Privacy settings inspection
+- Automatic validation of phone number format
+- Support for international numbers (with country code)
+- Terminal interface with interactive menu and colors
+- Automatic saving of images in JPG format
+- Detection of profiles without a profile picture or hidden ones
 
-## 📌 Requisitos
+## 📌 Requirements
 
 - Python 3.8+
 
-- Librerías: `requests`, `python-dotenv`, `colorama`
+- Libraries: `requests`, `python-dotenv`, `colorama`
 
 # 🔑 API Key (RapidAPI)
 
-NOMBRE | KEY |
+NAME | KEY |
 | ------------------- |-------------- |
-| [Whatsapp OSINT](https://rapidapi.com/inutil-inutil-default/api/whatsapp-osint) |  🔑 (Necesario) |
+| [Whatsapp OSINT](https://rapidapi.com/inutil-inutil-default/api/whatsapp-osint) |  🔑 (Required) |
 
-- Elige el plan → [Basic](https://rapidapi.com/inutil-inutil-default/api/whatsapp-osint/pricing)
-- Copia tu **API Key**
-- Edita el nombre del archivo .env.example por .env
-- Y agrega tu API Key en el archivo .env
+- Choose a plan → [Basic](https://rapidapi.com/inutil-inutil-default/api/whatsapp-osint/pricing)  
+- Copy your **API Key**  
+- Rename the file `.env.example` to `.env`  
+- Add your API Key in the `.env` file  
 
-### 🛠️ Paso 1: Configura el archivo .env con tu api
+### 🛠️ Step 1: Configure the .env file with your API
 
-En la raíz de tu proyecto corre:
+In the root of your project run:
 ```bash
 cp .env.example .env
 ```
-🔹 Esto crea un archivo nuevo llamado .env con el mismo contenido que .env.example.
+🔹 This creates a new file named `.env` with the same contents as `.env.example`.  
 
-🔹 .env.example se mantiene intacto (sirve como plantilla).
+🔹 `.env.example` remains intact (serves as a template).  
 
-### 🛠️ Paso 2: Abrir el archivo .env para editarlo
+### 🛠️ Step 2: Open the .env file to edit
 
-Usa nano (o el editor que prefieras, como vim o VS Code):
+Use nano (or your preferred editor like vim or VS Code):
 ```bash
 nano .env
 ```
 
-### 🛠️ Paso 3: Editar las variables
+### 🛠️ Step 3: Edit the variables
 
-Dentro de nano verás algo así (ejemplo):
+Inside nano you’ll see something like this (example):
 
-RAPIDAPI_KEY=tu_api_key_aqui
+```
+RAPIDAPI_KEY=your_api_key_here
+```
 
-👉 Aquí debes rellenar los valores con los datos correctos para tu entorno local.
-Por ejemplo:
+👉 You need to fill in the correct values for your local environment.  
+Example:
 
+```
 RAPIDAPI_KEY=yysnssksls536m3mdlldldmdddlld
+```
 
-### 🛠️ Paso 4: Guardar cambios en nano
+### 🛠️ Step 4: Save changes in nano
 
-- Presiona Ctrl + O → significa “Write Out” (guardar).
+- Press Ctrl + O → means “Write Out” (save).  
+- It will ask you to confirm the file name (.env), press Enter.  
+- Exit the editor with Ctrl + X.  
 
-- Te pedirá confirmación del nombre (.env), presiona Enter.
+### 🛠️ Step 5: Verify it was saved
 
-- Sal del editor con Ctrl + X.
-
-### 🛠️ Paso 5: Verificar que se guardó
-
-Ejecuta:
+Run:
 ```bash
 cat .env
 ```
 
-## ⚠️ Advertencia de uso
+## ⚠️ Usage Warning
 
-Esta herramienta ha sido creada exclusivamente para:
+This tool was created exclusively for:
 
-- Investigaciones de ciberseguridad legítimas
-- Auditorías de seguridad autorizadas
-- Proyectos de OSINT con fines educativos
-- Análisis con consentimiento explícito
+- Legitimate cybersecurity investigations  
+- Authorized security audits  
+- OSINT projects for educational purposes  
+- Analysis with explicit consent  
 
-🔴 **No utilices esta herramienta para actividades ilegales, acoso, o sin el consentimiento de las personas.**
+🔴 **Do not use this tool for illegal activities, harassment, or without people’s consent.**  
 
-🟢 **El autor no se hace responsable del mal uso que otros puedan darle.**
+🟢 **The author is not responsible for the misuse that others may give it.**
 
 ---
-## ⚙️ Instalación
+## ⚙️ Installation
 
-Clona el repositorio:
+Clone the repository:
 
 ```bash
 git clone https://github.com/HackUnderway/whatslookup.git
@@ -123,44 +125,43 @@ cd whatslookup
 pip install -r requirements.txt
 ```
 
-## 🐍 Uso básico 
-##### Ejecuta el script:
+## 🐍 Basic usage 
+##### Run the script:
 ```bash
 python3 whats_lookup.py
 ```
-- Selecciona una opción del menú (1-6)
-- Ingresa el número de teléfono con código de país (ej: 51987654321)
-- La herramienta validará el formato y enviará la consulta
-- Los resultados se mostrarán según el tipo de consulta seleccionada
+- Select an option from the menu (1-6)  
+- Enter the phone number with country code (e.g.: 51987654321)  
+- The tool will validate the format and perform the query  
+- Results will be displayed according to the selected query type  
 
 <p align="center">
-  <img src="assets/result.png" title="Resultados" alt="Resultados" width="600"/>
+  <img src="assets/result.png" title="Results" alt="Results" width="600"/>
 </p>
 
-> **El proyecto está abierto a colaboradores.**
+> **The project is open to contributors.**
 
+# SUPPORTED DISTRIBUTIONS
+|Distribution | Verified version | Supported? | Status |
+|--------------|-----------------|------------|--------|
+|Kali Linux| 2025.2 | yes | working   |
+|Parrot Security OS| 6.3 | yes | working   |
+|Windows| 11 | yes | working   |
+|BackBox| 9 | yes | working   |
+|Arch Linux| 2024.12.01 | yes | working   |
 
-# DISTRIBUCIONES SOPORTADAS
-|Distribución | Versión verificada | 	¿Soportado? | 	Estado |
-|--------------|--------------------|------|-------|
-|Kali Linux| 2025.2| si| funcionando   |
-|Parrot Security OS| 6.3| si | funcionando   |
-|Windows| 11 | si | funcionando   |
-|BackBox| 9 | si | funcionando   |
-|Arch Linux| 2024.12.01 | si | funcionando   |
-
-# SOPORTE
-Preguntas, errores o sugerencias: info@hackunderway.com
+# SUPPORT
+Questions, errors, or suggestions: info@hackunderway.com
 
 # LICENSE
-- [x] Whats Lookup tiene licencia.
-- [x] Consulta el archivo [LICENSE](https://github.com/HackUnderway/whatslookup#MIT-1-ov-file) para más información.
+- [x] Whats Lookup is licensed.  
+- [x] See the file [LICENSE](https://github.com/HackUnderway/whatslookup#MIT-1-ov-file) for more information.  
 
 # CYBERSECURITY RESEARCHER
 
 * [Victor Bancayan](https://www.offsec.com/bug-bounty-program/) - (**CEO at [Hack Underway](https://hackunderway.com/)**) 
 
-## 🔗 ENLACES
+## 🔗 LINKS
 [![Patreon](https://img.shields.io/badge/patreon-000000?style=for-the-badge&logo=Patreon&logoColor=white)](https://www.patreon.com/c/HackUnderway)
 [![Web site](https://img.shields.io/badge/Website-FF7139?style=for-the-badge&logo=firefox&logoColor=white)](https://hackunderway.com)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/HackUnderway)
@@ -169,18 +170,18 @@ Preguntas, errores o sugerencias: info@hackunderway.com
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/hackunderway)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/JeyZeta)
 
-## ☕️ Apoya el proyecto
+## ☕️ Support the project
 
-Si te gusta esta herramienta, considera invitarme un café:
+If you like this tool, consider buying me a coffee:
 
 [![Buy Me a Coffee](https://img.shields.io/badge/-Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/hackunderway)
 
-## 🌞 Suscripciones
+## 🌞 Subscriptions
 
-###### Suscríbete a: [Jey Zeta](https://www.facebook.com/JeyZetaOficial/subscribe/)
+###### Subscribe to: [Jey Zeta](https://www.facebook.com/JeyZetaOficial/subscribe/)
 
 [![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)](https://www.kali.org/)
 
-from <img src="https://i.imgur.com/ngJCbSI.png" title="Perú"> made in <img src="https://i.imgur.com/NNfy2o6.png" title="Python"> with <img src="https://i.imgur.com/S86RzPA.png" title="Love"> by: <font color="red">Victor Bancayan</font>
+from <img src="https://i.imgur.com/ngJCbSI.png" title="Peru"> made in <img src="https://i.imgur.com/NNfy2o6.png" title="Python"> with <img src="https://i.imgur.com/S86RzPA.png" title="Love"> by: <font color="red">Victor Bancayan</font>
 
 © 2025
