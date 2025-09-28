@@ -116,7 +116,7 @@ This tool was created exclusively for:
 Clone the repository:
 
 ```bash
-git clone https://github.com/HackUnderway/whatslookup.git
+git clone https://github.com/emonbhuiyan/whatslookup.git
 ```
 ```bash
 cd whatslookup
@@ -155,7 +155,7 @@ Questions, errors, or suggestions: info@hackunderway.com
 
 # LICENSE
 - [x] Whats Lookup is licensed.  
-- [x] See the file [LICENSE](https://github.com/HackUnderway/whatslookup#MIT-1-ov-file) for more information.  
+- [x] See the file [LICENSE](LICENSE) for more information.  
 
 # CYBERSECURITY RESEARCHER
 
